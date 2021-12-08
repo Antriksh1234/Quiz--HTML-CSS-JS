@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+}
+
+.entry_div {
+    background-color: #f0f8ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+}
+
+#game_heading {
+    font-size: 3rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#start_game_button {
+    padding: 1rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    border: none;
+    background-color: blue;
+    color: white;
+}
+
+#start_game_button:hover {
+    background-color: rgb(9, 9, 156);
+}
+
+#game_start_img {
+    border-radius: 10%;
+}

@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+}
+
+.entry_div {
+    background-color: #f0f8ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+}
+
+#score_heading {
+    font-size: 3rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#head_to_home {
+    padding: 1rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    border: none;
+    background-color: blue;
+    color: white;
+}
+
+#head_to_home:hover {
+    background-color: rgb(9, 9, 156);
+}

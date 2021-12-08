@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+}
+
+.quiz_navbar {
+    position: fixed;
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: blue;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+
+.quiz_navbar p {
+    font-size: 1.5rem;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    display: inline;
+    margin: 0;
+}
+
+.quiz_navbar_content {
+    display: flex;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    justify-content: space-between;
+    vertical-align: middle;
+}
+
+#submit_quiz {
+    background-color: rgb(22, 194, 22);
+    color: white;
+    outline: none;
+    font-size: 1rem;
+    border: none;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-weight: 500;
+    border-radius: 6px;
+}
+
+.questions_attempted_list {
+    padding-top: 6rem;
+    text-align: center;
+}
+
+#submit_quiz:hover {
+    background-color: rgb(27, 168, 27);
+}
+
+.question_indicator_div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+    text-align: center;
+    width: 4rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    height: 4rem;
+    line-height: 4rem;
+    border-radius: 100%;
+    background-color: rgb(158, 230, 233);
+}
+
+.question_circle {
+    vertical-align: middle;
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+
+.question {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+#question_text {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.options {
+    display: block;
+    padding: 1rem;
+    width: 90%;
+    text-align: left;
+    border-radius: 6px;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-color: blue;
+    background-color: white;
+    font-size: 1rem;
+}
+
+.prev_next_section {
+    width: 80%;
+    text-align: left;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav_button_wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.nav_button {
+    background-color: rgb(22, 194, 22);
+    color: white;
+    padding: 0.75rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: none;
+}
+
+.nav_button:hover {
+    background-color: rgb(18, 163, 18);
+}

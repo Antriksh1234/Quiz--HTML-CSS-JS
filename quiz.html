@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/quiz.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap" rel="stylesheet">
+    <title>Play Quiz</title>
+</head>
+<body>
+    <!--Navbar-->
+    <div class="quiz_navbar">
+        <div class="quiz_navbar_content">
+            <p>Quiz</p>
+            <button id="submit_quiz">Submit Quiz</button>
+        </div>
+    </div>
+
+    <!--Circles that indicate the attempted questions-->
+    <div class="questions_attempted_list">
+        <div id = "circle1" class="question_indicator_div">
+            <span class="question_circle">1</span>
+        </div>
+        <div id = "circle2" class="question_indicator_div">
+            <span class="question_circle">2</span>
+        </div>
+        <div id = "circle3" class="question_indicator_div">
+            <span class="question_circle">3</span>
+        </div>
+        <div id = "circle4" class="question_indicator_div">
+            <span class="question_circle">4</span>
+        </div>
+        <div id = "circle5" class="question_indicator_div">
+            <span class="question_circle">5</span>
+        </div>
+    </div>
+
+    <div class="question">
+        <h2 id="question_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</h2>
+        <button class = "options" id = "option1">Option1</button>
+        <button class = "options" id = "option2">Option2</button>
+        <button class = "options" id = "option3">Option3</button>
+        <button class = "options" id = "option4">Option4</button>
+    </div>
+
+    <div class="prev_next_section">
+        <div class="nav_button_wrapper">
+            <button class = "nav_button" id="prev_button">
+                Previous
+            </button>
+    
+            <button class = "nav_button" id="next_button">
+                Next
+            </button>
+        </div>
+    </div>
+    <script src="scripts/questions.js"></script>
+    <script src="scripts/quiz.js"></script>    
+</body>
+</html>
